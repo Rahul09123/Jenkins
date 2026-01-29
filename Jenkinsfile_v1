@@ -25,3 +25,4 @@ stage('Ansible Deployment') {
                     ansible-playbook installation: 'Ansible', playbook: 'deploy-playbook.yml'
              }
          }
+}
